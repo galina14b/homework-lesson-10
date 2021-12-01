@@ -1,0 +1,99 @@
+.body {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-weight: 700;
+  display: block;
+  width: 20vw;
+  text-align: center;
+  margin: 4% auto;
+}
+
+.section-four-items {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:80%;
+  margin: 0 auto;
+
+    &_item {
+      width: 15vw;
+    }
+}
+
+.button {
+  background-color: #FF9900;
+  width: 175px;
+  height: 53px;
+  border-radius: 4px;
+  margin: 2% auto;
+
+    &__sign-up-lower-case {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      display: block;
+      border:none;
+      position: relative;
+      cursor: pointer;
+
+    }
+
+    &_orange {
+      text-decoration: none;
+      display: block;
+      color: white;
+      padding-left: 18%;
+      padding-top: 8%;
+      width: inherit;
+      height: inherit;
+    }
+}
+
+.footer__button {
+  position: relative;
+  right: 32%;
+  bottom:1.7vh;
+}
+
+.line {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+
+.footer__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% auto;
+  width: 80%;
+  align-items: center;
+
+  &_input {
+    width: 325px;
+    height: 47px;
+    border-radius: 4%;
+    border: 1px solid darkgrey;
+  }
+
+  &_logo {
+    margin-bottom: 25%;
+  }
+
+  &_list {
+
+    &_item {
+      list-style-type: none;
+
+      &_link {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding-top: 8%;
+      }
+
+    }
+  }
+}
